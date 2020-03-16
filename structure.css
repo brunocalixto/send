@@ -1,0 +1,70 @@
+html {
+  position: relative;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Overflow */
+.snd-ovf-auto {
+  overflow: auto;
+}
+.snd-ovfx-hidden {
+  overflow-x: hidden;
+}
+.snd-ovfy-auto {
+  overflow-y: auto;
+}
+
+/* Position */
+.snd-pos-abs {
+  position: absolute;
+}
+.snd-pos-fxd {
+  position: fixed;
+}
+.snd-pos-inh {
+  position: inherit;
+}
+.snd-pos-init {
+  position: initial;
+}
+.snd-pos-rlt {
+  position: relative;
+}
+.snd-pos-stc {
+  position: static;
+}
+
+.snd-panel {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.snd-panel-header {height: 72px; background-color: #FFF; border-bottom:1px solid #EEE}
+.snd-panel-header-extend {height: 146px; background-color: #FFF; border-bottom:1px solid #EEE}
+
+.snd-panel-header + .snd-panel-content {top: 72px}
+.snd-panel-header-extend + .snd-panel-content {top: 146px}
+
+aside {
+  width: 5%;
+  background-color: #39f;
+}
+
+#snd-contact-list {
+  left: 5%;
+  right: 70%;
+  background-color: #fff;
+  border-right: 1px solid #eee;
+}
+
+#snd-chat {
+  left: 30%;
+  right: 0;
+  background-color: #f7f7f7;
+}
